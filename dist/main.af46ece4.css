@@ -1,0 +1,131 @@
+*{
+	margin: 0px;
+}
+.nav-menu-ul li{
+	list-style-type: none;
+   padding: 15px;
+   border-left: 1px solid gray;
+   font-size: 19px;
+   
+
+    
+}
+.nav-menu-ul{
+	display: flex;
+	margin-bottom: 0px !important;
+
+}
+.menu{
+	display: inline-block;
+	float: right !important;
+	
+}
+.logo img{
+	
+	height: 25px;
+}
+.logo{
+	display: inline-block;
+	padding: 15px 10px 0 10px;
+} 
+header{
+	background-color:  #d7dee4; 
+}
+.wrapper{
+	margin: 0px 100px;
+
+}
+.nav-menu-ul li:last-child{
+	border-right: 1px solid gray;
+}
+.active{
+	border-bottom: 3px solid red;
+}
+.nav-menu-ul li:hover{
+border-bottom: 3px solid red;
+}
+.nav-menu-ul li a{
+	text-decoration:none; 
+	color: black;
+}
+ #slider img{
+	width: 100%;
+}
+@keyframes slider{
+0%{
+	left: 0;
+}
+20% {
+	left: 0;
+}
+25% {
+	left: -100%;
+}
+45%{
+	left: -200%;
+}
+50%{
+	left: -200%;
+}
+70%{
+	left: -200%;
+}
+75%{
+	left: -300%;
+}
+95%{
+	left: -300%;
+}
+100%{
+	left: -400%;
+}
+}
+#slider{
+  overflow: hidden;
+}
+
+#slider figure img {
+    
+	width: 20%;
+	float: left;
+}
+#slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 20s slider infinite;
+}
+.slider-image{
+	display: inline-block;
+}
+.card-1{
+	float: left;
+	width: 30%;
+	margin: 0px 10px;
+	border-radius: 5px;
+    border: 1px solid #d4cdcd;
+}
+
+.cards{
+	width:100%;
+}
+.card-1 img{
+	width: 100% !important;
+}
+.btn-danger{
+	margin-top: 40px;
+}
+.card-1 a{
+	color: black;
+}
+.card-1 p {
+	padding: 13px 0px;
+	
+}
+.card-content{
+	padding: 10px !important;
+}
+
